@@ -1,0 +1,56 @@
+.layout {
+    display: flex;
+}
+
+body{
+    background: #040A17;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* COLUMNS */
+.news-columns {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+    color: goldenrod;
+}
+
+/* EACH COLUMN */
+.column {
+    flex: 1;
+    background: #03060F;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+/* CARDS */
+.card {
+    background: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    color: #E6EAF2;;
+}
+
+/* ACTIVE BUTTON */
+.sidebar button.active {
+    background: orange;
+    color: black;
+}

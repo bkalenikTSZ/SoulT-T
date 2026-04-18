@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+img{
+    transition: transform 0.2s ease;
+}
+
+body
+{
+    background-image: url("Images/ChurchBossArea_sample.0.0.1487633469.jpg");
+    background-size: cover;
+}
+
+.imbut
+{
+}
